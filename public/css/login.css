@@ -1,0 +1,202 @@
+/* import */
+.btn-primary {
+  background-color: #473d8a;
+  border: 1px solid #473d8a;
+  border-radius: 0;
+}
+
+.btn-outline-light {
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+}
+
+.active {
+  color: mediumspringgreen !important;
+}
+
+.darken {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.btn-primary:hover {
+  background-color: #3c3c3c;
+  border-color: #e6e6e6;
+}
+
+.btn-primary:active {
+  background-color: #473d8a;
+}
+
+.btn-outline-light:hover {
+  color: #473d8a;
+  border-color: #473d8a;
+}
+
+.btn-outline-light:active {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+  border: none;
+}
+
+body {
+  color: #ffffff;
+  background-color: #1e1e1e;
+  font-family: 'Roboto', sans-serif;
+  /* MAIL SECTION */
+}
+
+body .signup-form {
+  width: 450px;
+  margin: 0 auto;
+  padding: 37px 0;
+  font-size: 15px;
+}
+
+body .signup-form h2 {
+  color: #e6e6e6;
+  margin: 0 0 5px;
+  position: relative;
+  text-align: center;
+  font-size: 1.75em;
+  font-family: 'Roboto Slab', serif;
+}
+
+body .signup-form .hint-text {
+  color: #999;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+body .signup-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#473d8a), to(#3c3c3c));
+  background-image: linear-gradient(to right, #473d8a, #3c3c3c);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px 30px 0.5rem 30px;
+}
+
+body .signup-form form a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+body .signup-form form a:hover {
+  text-decoration: underline;
+}
+
+body .signup-form .form-group {
+  margin-bottom: 20px;
+}
+
+body .signup-form .form-group .form-control, body .signup-form .form-group .btn {
+  border-radius: 0;
+}
+
+body .signup-form .form-group .form-control {
+  height: 40px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #1e1e1e;
+}
+
+body .signup-form .form-group .form-control:hover {
+  border-color: #5cb85c;
+}
+
+body .signup-form .form-group a {
+  margin-left: 1rem;
+}
+
+body .signup-form .btn {
+  font-size: 0.9em;
+  font-weight: bold;
+  min-width: 140px;
+  outline: none !important;
+}
+
+body .signup-form a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+body .signup-form a:hover {
+  text-decoration: none;
+}
+
+body .signup-form .card {
+  margin: -30px -30px 30px -30px !important;
+  border: 0;
+  border-radius: 0;
+}
+
+body .signup-form .card img {
+  border-radius: 0;
+}
+
+body .signup-form .card .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 0;
+}
+
+body .mail-card {
+  border-radius: 0;
+  border: none;
+  margin: 4rem auto;
+  width: 40%;
+}
+
+body .mail-card .card {
+  border: none;
+  border-radius: 0;
+}
+
+body .mail-card .card img {
+  border: none;
+  border-radius: 0;
+}
+
+body .mail-card .card .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+body .mail-card .card .card-img-overlay .header {
+  background-color: #1e1e1e;
+  -webkit-box-shadow: 0 -2px 8px black;
+          box-shadow: 0 -2px 8px black;
+  margin: 0;
+  padding: 1.25rem;
+}
+
+body .mail-card .card .card-img-overlay .header h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.75em;
+  color: #CD853F;
+}
+
+body .mail-card .card-body {
+  color: black;
+}
+
+body .mail-card .list-group-flush {
+  border-top: 1px solid #1e1e1e;
+}
+/*# sourceMappingURL=login.css.map */

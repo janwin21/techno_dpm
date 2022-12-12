@@ -1,0 +1,85 @@
+// Primary Colors
+$darkslateblue: hsl(248, 39%, 39%);
+$darkgray: rgb(60, 60, 60);
+$white: rgb(230, 230, 230);
+$mediumspringgreen: rgb(0, 250, 154);
+
+.btn-primary {
+    background-color: $darkslateblue;
+    border: 1px solid $darkslateblue;
+    border-radius: 0;
+}
+
+.btn-outline-light {
+    border: 1px solid $white;
+    border-radius: 0;
+}
+
+.active {
+    color: mediumspringgreen !important;
+}
+
+// Secondary Colors
+$blackgray: rgb(30, 30, 30);
+$lightgray: rgb(92, 92, 92);
+$mediumpurple: #9370DB;
+$skinbrown: #CD853F;
+
+// Gradient Colors
+$gamingcolor: linear-gradient(to right, $darkslateblue, $darkgray);
+
+// Task (Mixin)
+@mixin responsive($component) {
+
+    @if $component == navigation {
+        @media (max-width: 767px) {  @content; }
+    }
+
+    @else if $component == logo {
+        @media (max-width: 1039px) {  @content; }
+    }
+
+    @else if $component == main-header {
+        @media (max-width: 921px) {  @content; }
+    }
+
+}
+
+// Utility opaque
+.darken {
+    background-color: rgba(black, 0.9) !important;
+}
+
+// Buttons utility
+.btn-primary:hover {
+    background-color: $darkgray;
+    border-color: $white;
+}
+
+.btn-primary:active {
+    background-color: $darkslateblue;
+}
+
+.btn-outline-light:hover {
+    color: $darkslateblue;
+    border-color: $darkslateblue;
+}
+
+.btn-outline-light:active {
+    opacity: 0.9;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+// Tabl Utility
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
